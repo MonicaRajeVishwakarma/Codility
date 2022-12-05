@@ -50,6 +50,7 @@ public class EventsServiceImpl implements EventsService {
         }
 
         if(Objects.isNull(events.getY())){
+
             throw new ValidationException(ErrorCode.MISSING_Y_FIELD);
         }
     }
