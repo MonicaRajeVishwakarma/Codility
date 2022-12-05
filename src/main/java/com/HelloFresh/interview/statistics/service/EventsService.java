@@ -8,7 +8,4 @@ InputDataSetService interface for InputDataSet Service
 public interface EventsService {
 
     Boolean add(Events events);
-
-
-
 }
